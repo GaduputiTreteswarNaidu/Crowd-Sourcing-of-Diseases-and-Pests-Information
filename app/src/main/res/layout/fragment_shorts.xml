@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First Video Section -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp">
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- Transparent Play Button -->
+            <ImageButton
+                android:id="@+id/playButton1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <!-- Transparent Pause Button -->
+            <ImageButton
+                android:id="@+id/pauseButton1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_pause"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <!-- Description for the first video -->
+        <TextView
+            android:id="@+id/descriptionText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <!-- Second Video Section -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp">
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- Transparent Play Button -->
+            <ImageButton
+                android:id="@+id/playButton2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <!-- Transparent Pause Button -->
+            <ImageButton
+                android:id="@+id/pauseButton2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_pause"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <!-- Description for the second video -->
+        <TextView
+            android:id="@+id/descriptionText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <!-- Third Video Section -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp">
+
+            <VideoView
+                android:id="@+id/videoView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- Transparent Play Button -->
+            <ImageButton
+                android:id="@+id/playButton3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <!-- Transparent Pause Button -->
+            <ImageButton
+                android:id="@+id/pauseButton3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_pause"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <!-- Description for the third video -->
+        <TextView
+            android:id="@+id/descriptionText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+        <!-- Fourth Video Section -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="16dp">
+
+            <VideoView
+                android:id="@+id/videoView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- Transparent Play Button -->
+            <ImageButton
+                android:id="@+id/playButton4"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <!-- Transparent Pause Button -->
+            <ImageButton
+                android:id="@+id/pauseButton4"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_pause"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <!-- Description for the fourth video -->
+        <TextView
+            android:id="@+id/descriptionText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>

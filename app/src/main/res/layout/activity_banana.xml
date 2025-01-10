@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bananaActivity"
+    android:background="@color/white">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="4dp"
+        android:title="Banana Cultivation"
+        android:titleTextColor="@android:color/white"
+        android:subtitle="Key Guidelines"
+        android:subtitleTextColor="@android:color/white" />
+
+    <!-- Title TextView -->
+
+    <!-- Divider -->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Banana Cultivation Tips"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar3" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <!-- Scrollable Information Section -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:padding="8dp"
+            android:background="@drawable/text_background"
+            android:text="• Climate: Bananas thrive in temperatures between 20°C–30°C with 100–200 cm of rainfall annually.\n\n
+• Soil: Bananas require well-drained, loamy soil with a pH of 6.0–7.5. Proper soil aeration improves root growth.\n\n
+• Planting Guidelines:\n
+   - Use tissue-cultured or disease-free suckers for planting.\n
+   - Maintain spacing of 1.8m x 1.8m for high-density planting.\n
+   - Ideal planting time is before the monsoon season.\n\n
+• Varieties: Popular banana varieties include:\n
+   - Dwarf Cavendish (dessert banana).\n
+   - Nendran (for chips and culinary use).\n
+   - Robusta (high-yield variety).\n
+   - Red Banana (unique taste and high market value).\n\n
+• Irrigation:\n
+   - Drip irrigation saves water and provides uniform moisture.\n
+   - Ensure soil is moist but not waterlogged to prevent root rot.\n\n
+• Fertilization Schedule:\n
+   - Apply farmyard manure (FYM) at 10 tons per acre before planting.\n
+   - Recommended NPK ratio: 200–300 kg Nitrogen, 100–150 kg Phosphorus, 300–400 kg Potassium per acre.\n
+   - Micronutrients like Zinc and Boron improve fruit quality.\n\n
+• Pests and Diseases:\n
+   - Common pests: Banana stem borer, aphids, and nematodes. Use neem oil or biopesticides for control.\n
+   - Common diseases: Panama wilt, Sigatoka leaf spot. Use resistant varieties and ensure proper drainage.\n\n
+• Harvesting:\n
+   - Banana plants are ready for harvest 9–12 months after planting, depending on variety.\n
+   - Harvest when fruits are mature, green, and firm.\n
+   - Avoid bruising during handling to preserve fruit quality.\n\n
+• Post-Harvest Management:\n
+   - Store bananas at 13°C–15°C to delay ripening.\n
+   - Use ethylene gas for uniform ripening.\n\n
+• Additional Tips:\n
+   - Regular pruning and removal of dead leaves reduce disease spread.\n
+   - Intercropping with legumes or vegetables improves land utilization.\n
+   - Mulching with dried leaves reduces water evaporation.\n\n
+Bananas are not only a source of nutrition but also a profitable crop for farmers. Proper management can increase yields significantly. Aim for sustainable practices to ensure soil health and consistent productivity. The global demand for bananas continues to grow, making it a lucrative agricultural venture. With the right techniques, farmers can meet market demands and achieve higher incomes." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

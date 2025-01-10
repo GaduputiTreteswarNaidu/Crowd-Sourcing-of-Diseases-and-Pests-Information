@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grapesActivity"
+    android:background="@color/white">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="4dp"
+        android:title="Grape Cultivation"
+        android:titleTextColor="@android:color/white"
+        android:subtitle="Key Guidelines"
+        android:subtitleTextColor="@android:color/white" />
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Grape Cultivation Tips"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar3" />
+
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <!-- Scrollable Information Section -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:padding="8dp"
+            android:background="@drawable/text_background"
+            android:text="• Climate: Grapes thrive in temperate climates with hot, dry summers and cool winters. The ideal temperature range is 15°C–30°C.\n\n
+• Soil: Well-drained sandy loam or clay loam soils are ideal. Soil pH should range between 6.5–8.0.\n\n
+• Planting Guidelines:\n
+   - Choose certified, disease-free cuttings or grafts for planting.\n
+   - Plant spacing depends on the variety and training system, generally 2m x 3m.\n
+   - Spring is the best time for planting in most regions.\n\n
+• Varieties: Popular grape varieties include:\n
+   - Thompson Seedless (table grape).\n
+   - Cabernet Sauvignon (wine grape).\n
+   - Black Corinth (raisin grape).\n
+   - Perlette (early table variety).\n\n
+• Irrigation:\n
+   - Drip irrigation is highly recommended for water efficiency.\n
+   - Water stress during flowering can reduce yields, so maintain adequate soil moisture.\n\n
+• Fertilization Schedule:\n
+   - Apply organic manure (8–10 tons per acre) before planting.\n
+   - Use NPK fertilizers based on soil testing. Typically, 40–80 kg Nitrogen, 30–50 kg Phosphorus, and 60–120 kg Potassium per acre.\n
+   - Supplement with micronutrients like Magnesium and Zinc.\n\n
+• Training and Pruning:\n
+   - Grapes require training systems like trellis, pergola, or head training for optimal growth.\n
+   - Prune during dormancy to remove dead wood and shape the vine for next season's growth.\n\n
+• Pests and Diseases:\n
+   - Common pests: Mealybugs, thrips, and spider mites. Integrated pest management (IPM) techniques are effective.\n
+   - Common diseases: Powdery mildew, downy mildew, and anthracnose. Use fungicides and ensure proper ventilation.\n\n
+• Harvesting:\n
+   - Grapes are harvested when sugar content and acidity reach optimal levels for the intended purpose (table, wine, or raisins).\n
+   - Handpicking reduces damage and preserves fruit quality.\n\n
+• Post-Harvest Management:\n
+   - Store grapes at 0°C–2°C with 90–95% humidity for extended freshness.\n
+   - For raisins, dry grapes under the sun or use mechanical dehydrators.\n\n
+• Additional Tips:\n
+   - Install windbreaks to protect vines from strong winds.\n
+   - Mulching around the base conserves moisture and controls weeds.\n
+   - Monitor vines regularly for nutrient deficiencies and pest outbreaks.\n\n
+Grapes are a versatile crop with applications in fresh consumption, wine production, and dried fruits. With proper care and management, grape cultivation can be a highly profitable venture. The demand for quality grapes continues to rise globally, making it an attractive option for farmers aiming to diversify." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

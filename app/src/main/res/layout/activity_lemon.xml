@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lemonActivity"
+    android:background="@color/white">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="4dp"
+        android:title="Lemon Cultivation"
+        android:titleTextColor="@android:color/white"
+        android:subtitle="Key Guidelines"
+        android:subtitleTextColor="@android:color/white" />
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Lemon Cultivation Tips"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar3" />
+
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <!-- Scrollable Information Section -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="true"
+            android:padding="8dp"
+            android:background="@drawable/text_background"
+            android:text="• Climate: Lemons thrive in tropical and subtropical climates. The ideal temperature range is 25°C–30°C, with protection from frost.
+
+• Soil: Well-drained sandy loam or clay loam soils with good organic matter content are ideal. Soil pH should range between 5.5–7.5.
+
+• Planting Guidelines:
+   - Use healthy, disease-free saplings from a trusted nursery.
+   - Recommended spacing: 4m x 4m for normal planting or 6m x 6m for high-density planting.
+   - Plant during the monsoon or early spring season.
+
+• Varieties: Popular lemon varieties include:
+   - Eureka (seedless variety).
+   - Lisbon (drought-tolerant variety).
+   - Kagzi (Indian lime).
+   - Meyer (sweet and cold-tolerant variety).
+
+• Irrigation:
+   - Young plants require frequent watering, especially during dry periods.
+   - Drip irrigation is ideal for efficient water management.
+   - Avoid waterlogging to prevent root rot.
+
+• Fertilization Schedule:
+   - Apply 10–15 kg of organic manure per tree annually.
+   - Use NPK fertilizers based on soil testing. A typical dose is 200g Nitrogen, 150g Phosphorus, and 150g Potassium per tree per year.
+   - Supplement with micronutrients like Zinc and Iron to enhance growth.
+
+• Training and Pruning:
+   - Train plants to a single stem during the initial years.
+   - Prune dead, diseased, or overcrowded branches regularly to maintain airflow and light penetration.
+
+• Pests and Diseases:
+   - Common pests: Citrus psyllid, leaf miners, and aphids. Use organic or chemical controls as needed.
+   - Common diseases: Citrus canker, gummosis, and greening disease. Ensure proper drainage and apply preventive fungicides.
+
+• Harvesting:
+   - Lemons are ready for harvest 6–8 months after flowering.
+   - Harvest when fruits are firm, fully grown, and have turned yellow or light green.
+
+• Post-Harvest Management:
+   - Store lemons in a cool, well-ventilated place to maintain freshness.
+   - For longer storage, use refrigeration at 10°C–13°C with 85% humidity.
+
+• Additional Tips:
+   - Apply mulch around the base to conserve soil moisture and suppress weeds.
+   - Install windbreaks to protect against strong winds.
+   - Regularly monitor for signs of nutrient deficiencies or pest infestations.
+
+Lemon cultivation is a rewarding venture with consistent demand in the fresh fruit market, juice production, and culinary uses. With proper management practices, lemon farming can be both sustainable and profitable." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

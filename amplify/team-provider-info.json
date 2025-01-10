@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cropcare-dev-26e89-authRole",
+      "UnauthRoleArn": "arn:aws:iam::503561421584:role/amplify-cropcare-dev-26e89-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::503561421584:role/amplify-cropcare-dev-26e89-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-cropcare-dev-26e89-deployment",
+      "UnauthRoleName": "amplify-cropcare-dev-26e89-unauthRole",
+      "StackName": "amplify-cropcare-dev-26e89",
+      "StackId": "arn:aws:cloudformation:ap-south-1:503561421584:stack/amplify-cropcare-dev-26e89/bc694b00-bfce-11ef-af45-0aaf3430faed",
+      "AmplifyAppId": "d1zfi0hw2dc8mn"
+    },
+    "categories": {
+      "auth": {
+        "cropcared2936463": {}
+      },
+      "storage": {
+        "s31be83d78": {}
+      }
+    }
+  }
+}

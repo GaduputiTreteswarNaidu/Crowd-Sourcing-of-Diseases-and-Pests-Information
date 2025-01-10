@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CropCare"
+        tools:targetApi="34">
+        <activity
+            android:name=".answerQuestions"
+            android:exported="false" />
+        <activity
+            android:name=".imageactivity"
+            android:exported="false" /> <!-- Reference AWS Configuration -->
+        <!-- Ensure the file is in res/raw/ -->
+        <!-- Launcher Activity -->
+        <activity
+            android:name=".Farmer"
+            android:exported="true"
+            android:theme="@style/Theme.CropCare.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Other Activities -->
+        <activity
+            android:name=".AskCommunity"
+            android:exported="true" />
+        <activity
+            android:name=".lemonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".grapesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Continue_Login"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".bananaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CropDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EXPLOREPAGE_02"
+            android:exported="true" />
+        <activity
+            android:name=".EXPLOREPAGE_01"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
