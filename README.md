@@ -8,6 +8,10 @@ It allows users to report issues with images, receive solutions, and access cult
 
 Features
 
+
+
+
+
 Disease Reporting:
 Upload images of affected crops with detailed descriptions.
 Receive solutions from the community and experts.
@@ -30,6 +34,11 @@ Built using Firebase for real-time updates and secure data storage.
 
 Research Goals and Objectives:
 
+
+
+
+
+
 Develop a user-friendly mobile application for crop disease management.
 
 Promote community-driven problem-solving for farmers.
@@ -40,6 +49,9 @@ Faster knowledge sharing and collaboration.
 
 
 Technologies Used:
+
+
+
 
 Frontend: Android Studio (Java).
 
@@ -52,6 +64,9 @@ Language Support: Multilingual integration for inclusivity.
 
 Challenges Addressed:
 
+
+
+
 Bridging the knowledge gap in agriculture through multilingual support.
 
 Enhancing real-time engagement between farmers and agricultural experts.
@@ -60,6 +75,9 @@ Providing an intuitive platform accessible to users with varying technological l
 
 
 Contact:
+
+
+
 Contributors: Gaduputi Treteswar Naidu, Darisi Phani Bala Jaswanth, Kasturi Deepak, Reddy Masu Teja.
 Guide: Ms. Rohini A, Presidency University.
 
